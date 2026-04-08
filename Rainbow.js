@@ -20,16 +20,14 @@ export default class Rainbow extends Ranger {
         this.hp
         console.log(`${this.name} my hpNow!!${this.hp}`)
     }
-    makeSound() {
-        console.log(`${this.name} makes a rainbow-colored sound!`);
-    }
+   
     transform() {
         this.hp += 999899;
         super.transform();
         this.name = "Rainbow Warrior";
         console.log(`I am ${this.name}`);
     }
-    
+
     aftertransform() {
         console.log(`${this.name} aftertransform into a Rainbow Ranger!. HP is now ${this.hp}`);
     }

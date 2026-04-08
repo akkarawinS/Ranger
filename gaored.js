@@ -12,6 +12,19 @@ class Gaored extends Ranger {
       console.log(`${this.name} : ฉันคือคุณหมอ ${this.name}`);
     }
   }
+
+  transform() {
+    this.hp += 999899;
+    super.transform();
+    this.name = "Gao Red";
+    console.log(`I am ${this.name}`);
+  }
+
+  aftertransform() {
+        console.log(`${this.name} aftertransform into a Rainbow Ranger!. HP is now ${this.hp}`);
+    }
+
+
   callAnimalSpirit() {
     if (this.isTransformed) {
       console.log(

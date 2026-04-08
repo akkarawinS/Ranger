@@ -22,7 +22,7 @@ export default class Ranger {
         `${this.name} calls upon the power of the ${this.animalSpirit}!`,
       );
     } else {
-      console.log(`${this.name} needs to transform first!`);
+      console.log(`${this.name}  needs to transform first!`);
     }
   }
   static teamUp(ranger1, ranger2) {
