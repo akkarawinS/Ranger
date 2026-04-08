@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Ranger from "./Ranger.js";
 import Villians from "./Villains.js"
 
@@ -11,3 +12,15 @@ console.log(man1.combat(Gigi1))
 
 
 
+=======
+import Gaored from "./gaored.js";
+import Ranger from "./Ranger.js";
+
+const gaored = new Gaored("Kakeru Shishi", "Gao red", "Gao Lion");
+
+gaored.transform();
+
+gaored.shout();
+
+gaored.callAnimalSpirit();
+>>>>>>> b80946052883538ad3e5004bd29d6928c85d0f5b
