@@ -5,6 +5,7 @@ export default class Ranger {
     this.animalSpirit = animalSpirit;
     this.hp = 100;
     this.isTransformed = false;
+    this.combatPower = 0;
   }
 
   transform() {
@@ -32,4 +33,13 @@ export default class Ranger {
     this.hp += 20;
     console.log(`${this.name} eats and restores health. HP is now ${this.hp}`);
   }
+  combat(enemy){ 
+    if (this.combatPower > enemy.combatPower){
+      console.log("Victory")
+    }
+    else{
+      console.log("Defeat")
+    } 
+  }
 }
+
